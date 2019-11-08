@@ -6,6 +6,10 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 		<style>
+			body{
+			background-color: #121316;
+			}
+			
 			.bignav a{
 			margin: 0 40 0 0; 
 			color: #ffffff;
@@ -60,39 +64,70 @@
 			font-weight: bold;
 			color: lightgray;
 			}
+			
+			.navbar-toggler-icon{
+			background-image: url(bar.png)!important
+			}
 
 			
 
 			@media screen and (max-width: 480px){
-				body{
-				background-color: yellow;
+				
+				.navbar{
+				height: 70px;
 				}
+				
 				
 				.bignav{
 				visibility: hidden;
 				}
+				
+				.navbar-toggler{
+				background-color: #34363c;
+				}
+				
+				.productdiv .products{
+				width: 70%;
+				color: lightgray;
+				margin: 0 0 100 0;
+				
+				}
 			}
 
 			@media screen and (max-width: 768px) and (min-width: 481px)  { 
-				body{
-				background-color: blue;
-				}
-				
 				.bignav{
 				visibility: hidden;
 				position: absolute;
 				}
 				
+				.navbar-toggler{
+				background-color: #34363c;
+				}
 	
-				
+				.productdiv .products{
+				width: 70%;
+				color: lightgray;
+				margin: 0 0 100 0;
+				}
 		
+				.footerright i{
+				font-size: 40px;
+				margin: 0 20 0 0;		
+				}
 				
-			}
+				.footerright{
+				margin: 0 0 0 20;
+				top: ;
+				
+				}
+				
+				.footerleft{
+				margin: 0 0 0 20;
+				}
+
+				}
 			
 			@media screen and (max-width: 1279px) and (min-width: 769px)  { 
-				body{
-				background-color: green;
-				}
 				
 				.navbar-toggler{
 				visibility: hidden;
@@ -100,22 +135,32 @@
 				
 				.carousel-item{
 				width: 100%; 
-				height: 310px; 
+				height: 600px; 
 				overflow: hidden;
 				}
+		
 				
 				.productdiv .products{
 				display: inline-block;
 				width: 20%;
 				color: lightgray;
 			}
+			
+				.footerright{
+				float: right;
+				}
+				
+				.footerright h1{
+				 margin: 120 300 10 0;
+				}
+				
+				.footerleft{
+				margin: 20 0 10 90;
+				}
 			
 			}
 			
 			@media screen and (min-width: 1280px){ 
-				body{
-				background-color: #121316;
-				}
 				
 				.navbar-toggler{
 				visibility: hidden;
@@ -123,7 +168,7 @@
 				
 				.carousel-item{
 				width: 100%; 
-				height: 500px; 
+				height: 600px; 
 				overflow: hidden;
 				}
 				
@@ -132,6 +177,19 @@
 				width: 20%;
 				color: lightgray;
 			}
+				
+				.footerright{
+				float: right;
+				}
+				
+				.footerright h1{
+				 margin: 120 300 10 0;
+				}
+				
+				.footerleft{
+				margin: 20 0 10 90;
+				}
+				
 				
 				
 				
@@ -209,21 +267,21 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="deathstranding.jpg" class="d-block w-100" alt="Image did not load properly">
+        <img src="deathstrandingt.png" class="d-block w-100" alt="Image did not load properly">
         <div class="carousel-caption d-none d-md-block">
           <h5>Death Stranding</h5>
           <p>is a completely new type of action game, where the goal of the player is to reconnect isolated cities and a fragmented society. It is created so that all elements, including the story and gameplay, are bound together by the theme of the "Strand" or connection.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="tocs3.jpg" class="d-block w-100" alt="Image did not load properly">
+        <img src="tocs3t.png" class="d-block w-100" alt="Image did not load properly">
         <div class="carousel-caption d-none d-md-block">
           <h5>Trails of Coldsteel III </h5>
           <p>Nearly a year and a half has passed since the Erebonian civil war, and much has changed since then. From the shifting stances of countries to the internal politics of the Empire, and even the life of real schwarzer, the shadows of the past have given way to the embers of a new chapter. Now graduated from thors military Academy.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="2k20.jpg" class="d-block w-100" alt="Image did not load properly">
+        <img src="2k20t.jpg" class="d-block w-100" alt="Image did not load properly">
         <div class="carousel-caption d-none d-md-block">
           <h5>NBA 2K20</h5>
           <p>This isn’t a game. This is the place the game comes to learn. This is the place the present can’t catch. Where next gets known and the ball decides your fate. From the blacktop to the hardwood and throughout the Neighborhood, NBA 2K20 and its next level features are the closest thing to actually playing in the league.</p>
@@ -273,8 +331,8 @@
 				<p> Terms Of Use | Privacy Policy </p>
 				</div>
 				
-				<div class = "footerright" style = "float: right;">
-				<h1 style = "margin: 120 300 10 0; "> Follow us</h1>
+				<div class = "footerright">
+				<h1> Follow us</h1>
 				
 				<a href = "#" style = "text-decoration:none;">
 				<i class="fab fa-facebook-square" style = "color: #4267b2;"></i>
