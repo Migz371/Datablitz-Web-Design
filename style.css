@@ -1,0 +1,213 @@
+body{
+			background-color: #121316;
+			}
+			
+			.bignav a{
+			margin: 0 40 0 0; 
+			color: #ffffff;
+			font-weight: bold;
+			}
+						
+			.productdiv{
+			width: 100%;
+			margin: 90 0 100 0;
+			}
+			
+			.products h1{
+			font-size: 100%;
+			}
+			
+			.contact{
+			background-color: #34363c;
+			}
+			
+			.contact i{
+			display: inline-block;
+			margin: 5 0 5 10;
+			color: lightgray;
+			}
+			
+			.contact p{
+			display: inline-block;
+			margin: 5 10 5 0;
+				color: lightgray;
+			}
+			
+			.carousel-caption h5{
+			font-size: 40px;
+			font-weight: bold;
+			
+			}
+			
+			.carousel-caption{
+			text-shadow: 2px 2px 1px #000000;
+			}
+			
+		
+			.footerright i{
+			font-size: 40px;
+			margin: 0 20 0 0;
+			
+		
+			}
+		
+			.footerleft{
+			margin: 20 0 10 90;
+			font-weight: bold;
+			color: lightgray;
+			}
+			
+			.navbar-toggler-icon{
+			background-image: url(bar.png)!important
+			}
+			
+			.nav-link{
+			color: white !important;
+			}
+			
+			.nav-link:hover{
+			color: yellow !important;
+			}
+			
+			
+
+			.leftinfo{
+			background-color:red;
+			width: 500px ;
+			display: inline-block;
+			
+			}
+			
+			.rightimg{
+			background-color:blue;
+			width: 50%;
+			display: inline-block;
+			
+			margin: 0 0	 0 100;
+			}
+
+			@media screen and (max-width: 480px){
+				
+				.navbar{
+				height: 70px;
+				}
+				
+				
+				.bignav{
+				visibility: hidden;
+				}
+				
+				.navbar-toggler{
+				background-color: #34363c;
+				}
+				
+				.productdiv .products{
+				width: 70%;
+				color: lightgray;
+				margin: 0 0 100 0;
+				
+				}
+			}
+
+			@media screen and (max-width: 768px) and (min-width: 481px)  { 
+				.bignav{
+				visibility: hidden;
+				position: absolute;
+				}
+				
+				.navbar-toggler{
+				background-color: #34363c;
+				}
+	
+				.productdiv .products{
+				width: 70%;
+				color: lightgray;
+				margin: 0 0 100 0;
+				}
+		
+				.footerright i{
+				font-size: 40px;
+				margin: 0 20 0 0;		
+				}
+				
+				.footerright{
+				margin: 0 0 0 20;
+				top: ;
+				
+				}
+				
+				.footerleft{
+				margin: 0 0 0 20;
+				}
+
+				}
+			
+			@media screen and (max-width: 1279px) and (min-width: 769px)  { 
+				
+				.navbar-toggler{
+				visibility: hidden;
+				}
+				
+				.carousel-item{
+				width: 100%; 
+				height: 600px; 
+				overflow: hidden;
+				}
+		
+				
+				.productdiv .products{
+				display: inline-block;
+				width: 20%;
+				color: lightgray;
+			}
+			
+				.footerright{
+				float: right;
+				}
+				
+				.footerright h1{
+				 margin: 120 300 10 0;
+				}
+				
+				.footerleft{
+				margin: 20 0 10 90;
+				}
+			
+			}
+			
+			@media screen and (min-width: 1280px){ 
+				
+				.navbar-toggler{
+				visibility: hidden;
+				}
+				
+				.carousel-item{
+				width: 100%; 
+				height: 600px; 
+				overflow: hidden;
+				}
+				
+				.productdiv .products{
+				display: inline-block;
+				width: 20%;
+				color: lightgray;
+			}
+				
+				.footerright{
+				float: right;
+				}
+				
+				.footerright h1{
+				 margin: 120 300 10 0;
+				}
+				
+				.footerleft{
+				margin: 20 0 10 90;
+				}
+				
+				
+				
+				
+			}
+			
+			
