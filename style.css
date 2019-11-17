@@ -1,4 +1,4 @@
-body{
+			body{
 			background-color: #121316;
 			}
 			
@@ -47,8 +47,12 @@ body{
 			.footerright i{
 			font-size: 40px;
 			margin: 0 20 0 0;
-			
+			color:white;
 		
+			}
+			
+			.footerright h1{
+			color:white;
 			}
 		
 			.footerleft{
@@ -58,7 +62,7 @@ body{
 			}
 			
 			.navbar-toggler-icon{
-			background-image: url(bar.png)!important
+			background-image: url(essentials/bar.png)!important
 			}
 			
 			.nav-link{
@@ -68,23 +72,12 @@ body{
 			.nav-link:hover{
 			color: yellow !important;
 			}
-			
-			
+				
+			.container1AU{
+			width: 100%;
+			}
+	
 
-			.leftinfo{
-			background-color:red;
-			width: 500px ;
-			display: inline-block;
-			
-			}
-			
-			.rightimg{
-			background-color:blue;
-			width: 50%;
-			display: inline-block;
-			
-			margin: 0 0	 0 100;
-			}
 
 			@media screen and (max-width: 480px){
 				
@@ -140,7 +133,23 @@ body{
 				margin: 0 0 0 20;
 				}
 
+				.bestxpbg{
+				width: 100%;
+				height: 500px;
+				font-family: 'Squada One', cursive;
+				background-image: rl(games/auwallpaper.jpg);
+				background-position: 30pswx;
+				opacity: 0.5;
+				position: relative;
+				box-shadow: 0px 0px 8px #ffffff;
+				background-repeat: no-repeat;		
 				}
+
+
+
+				}
+				
+				
 			
 			@media screen and (max-width: 1279px) and (min-width: 769px)  { 
 				
@@ -166,12 +175,112 @@ body{
 				}
 				
 				.footerright h1{
-				 margin: 120 300 10 0;
+				 margin: 100 100 10 0;
 				}
 				
 				.footerleft{
 				margin: 20 0 10 90;
 				}
+				
+				
+				
+				
+				.dbimg{
+				background-image: url(dbrelated/dbstore.jpg); 
+				width: 600px;
+				height: 450px; 
+				background-size: 100%; 
+				background-repeat: no-repeat;
+				margin: 30 auto 0 auto;
+				border-radius: 5px;
+				}
+				
+				.dbimg2{
+				background-image: url(dbrelated/consoles.jpg); 
+				width: 600px;
+				height: 450px;
+				background-size: 100%; 
+				background-repeat: no-repeat;		
+				margin: 30 auto 0 auto;
+				border-radius: 5px;
+				}
+				
+				.dbimg3{
+				background-image: url(dbrelated/abtus.jpg); 
+				width: 600px;
+				height: 450px; 
+				background-size: 100%; 
+				margin: 30 auto 0 auto;
+				border-radius: 5px;
+				
+				}
+				
+				.bestxpbg{
+				width: 100%;
+				height: 500px;
+				font-family: 'Squada One', cursive;
+				background-image: url(games/auwallpaper.jpg);
+				background-position: 40% 0px;
+				opacity: 0.5;
+				position: relative;
+				box-shadow: 0px 0px 8px #ffffff;
+				background-repeat: no-repeat;		
+				}
+				
+				
+				.dbis{			 
+				color: white; 
+				margin: 50 5% 60 5%; 
+				font-size:23px;		
+				border-radius: 5px;
+				
+
+				}
+				
+				.dbis p{
+				margin-left: 8px;
+				margin-right: 8px;
+				text-shadow: 2px 2px 1px #000000;
+				
+				}
+				
+				.dbis2{			
+				color: white; 
+				margin: 50 5% 60 5%; 
+				font-size: 20px;		
+				border-radius: 5px;
+				}
+				
+				.dbis2 p{
+				text-align: -webkit-center;
+				margin-left: 0;
+				margin-right: 0;
+				text-shadow: 2px 2px 1px #000000;			
+				}
+				
+				.abtusblk{
+				margin-bottom: 60px;
+				}
+				
+				
+				.dbis3{
+			
+				color: white; 
+				margin: 40 5% 0 5%; 
+				font-size:23px;		
+				border-radius: 5px;
+
+				}
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
 			
 			}
 			
@@ -180,6 +289,12 @@ body{
 				.navbar-toggler{
 				visibility: hidden;
 				}
+				
+				#coldsteel{
+					margin-top:-10%;
+					float:right
+				}
+				
 				
 				.carousel-item{
 				width: 100%; 
@@ -198,13 +313,103 @@ body{
 				}
 				
 				.footerright h1{
-				 margin: 120 300 10 0;
+				 margin: 100 100 10 0;
 				}
 				
 				.footerleft{
 				margin: 20 0 10 90;
 				}
 				
+				.dbimg{
+				background-image: url(dbrelated/dbstore.jpg); 
+				width: 500px;
+				height: 350px; 
+				background-size: 100%; 
+				background-repeat: no-repeat;
+				display:inline-block;
+				margin: 30 0 35 50;
+				border-radius: 5px;
+				}
+				
+				.dbimg2{
+				background-image: url(dbrelated/consoles.jpg); 
+				width: 500px;
+				height: 350px; 
+				background-size: 100%; 
+				background-repeat: no-repeat;
+				display:inline-block;
+				margin: 0 0 35 0;
+				border-radius: 5px;
+				position: absolute;
+				right: 100px;
+				}
+				
+				.dbimg3{
+				background-image: url(dbrelated/abtus.jpg); 
+				width: 500px;
+				height: 350px; 
+				background-size: 100%; 
+				background-repeat: no-repeat;	
+				margin: 150 0 35 50;
+				border-radius: 5px;
+				}
+				
+				.bestxpbg{
+				width: 100%;
+				height: 500px;
+				font-family: 'Squada One', cursive;
+				background-image: url(games/auwallpaper.jpg);
+				opacity: 0.5;
+				position: relative;
+				box-shadow: 0px 0px 8px #ffffff;
+				background-repeat: no-repeat;		
+				}
+				
+				
+				.dbis{
+				float:right; 
+				color: white; 
+				margin: 130 5% 0 5%; 
+				font-size:23px;		
+				border-radius: 5px;
+
+				}
+				
+				.dbis p{
+				margin-left: 8px ;
+				margin-right: 8px;
+				text-shadow: 2px 2px 1px #000000;
+				
+				}
+				
+				.dbis2{
+				
+				color: white; 
+				margin: 40 0 0 70; 
+				font-size: 20px;		
+				border-radius: 5px;
+				}
+				
+				.dbis2 p{
+				margin-left: 0 ;
+				margin-right: 0;
+				text-shadow: 2px 2px 1px #000000;			
+				}
+				
+				.abtusblk{
+				margin-bottom: 60px;
+				}
+				
+				.p3{display:absolute;}
+
+				.dbis3{
+				float:right; 
+				color: white; 
+				margin: 40 5% 0 5%; 
+				font-size:23px;		
+				border-radius: 5px;
+
+				}
 				
 				
 				
